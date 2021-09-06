@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Kipmy</string>
-    <string name="making_kipmy">Making Kipmy</string>
-    <string name="kipmy">Kipmy</string>
+    <string name="mais">+</string>
+    <string name="ok">Ok</string>
+    <string name="kipme_diario">Kipme_Diario</string>
+    <string name="kipmy_diario">Kipmy Diario</string>
+    <string name="some_text">Some text</string>
+
 </resources>

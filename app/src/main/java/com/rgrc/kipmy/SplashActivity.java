@@ -3,31 +3,30 @@ package com.rgrc.kipmy;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class SplashActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lista_anotacoes);
 
-        setTheme(R.style.Theme_Splash);
+        setTheme(R.style.listaAnotacoes);
 
-        setContentView(R.layout.activity_splash);
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        new Timer().schedule(new TimerTask() {
+//O Timer e o TimerTaks são componentes de mais alto-nível com o propósito de executar ações agendadas recorrentes ou após um determinado tempo
             @Override
             public void run() {
-                mostrarMainActivity();
+                finish();
+
+                Intent intent = new Intent();
+                intent.setClass(SplashActivity.this, ListaAnotacoesActivity.class);
+                startActivity(intent);
             }
-        }, 5000);
+        }, 2000);
     }
 
-    private void mostrarMainActivity() {
-        Intent intent = new Intent(
-                SplashActivity.this,MainActivity.class
-        );
-        startActivity(intent);
-        finish();
-    }
 }

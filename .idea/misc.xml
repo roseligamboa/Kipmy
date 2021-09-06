@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/drawable/fundo.xml" value="0.1" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/drawable/my_bordas_list.xml" value="0.1" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/layout/activity_formulario.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/layout/activity_lista_anotacoes.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/layout/activity_splash.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/layout/splash_screen.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/Rose/Desktop/Kipmy/app/src/main/res/menu/menu_formulario.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
@@ -13,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12771739130434784" />
+      </ProjectState>
+    </option>
   </component>
 </project>
